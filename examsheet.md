@@ -4,7 +4,7 @@ Date: 2023-11-29
 
 ## 問題 01 [curl]
 
-https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} curl を用いてリクエストするコマンドを記述せよ
+https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} を　curl を用いてリクエストするコマンドを記述せよ
 
 解答欄
 
@@ -17,7 +17,7 @@ https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} curl
 ## 問題 02 [netcat]
 
 `$ cat request | nc www.it-college.ac.jp:80` コマンドにて index ページを取得する
-このときの request の中身を記述せよ,　通信プロトコルは HTTP1.1 とする
+このときの request ファイルの中身を記述せよ,　通信プロトコルは HTTP1.1 とする
 
 解答欄
 
@@ -31,7 +31,7 @@ https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} curl
 ## 問題 03 [netcat]
 
 netcat(nc)を用いて echo サーバをポート番号 7777 で起動した
-サーバーが listen しているか確認するコマンドを記述せよ
+サーバーが listen しているかを確認するコマンドを記述せよ
 
 ```bash
 # この下にコマンドを記述
@@ -42,7 +42,7 @@ netcat(nc)を用いて echo サーバをポート番号 7777 で起動した
 ## 問題 04 [netcat]
 
 netcat(nc)を用いて echo サーバー及び echo クライアントを作成するコマンドを記述せよ
-但し，Host は localhost,　 port 番号は 7777 とする
+但し，Host は sv.example.com,　 port 番号は 7777 とする
 
 解答欄(サーバー側)
 
