@@ -4,7 +4,7 @@ Date: 2023-11-29
 
 ## 問題 01 [curl]
 
-https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} を　curl を用いてリクエストするコマンドを記述せよ
+https://www.codingbat.com/login に DATA {"uname":"omas","pass","hogehoge"} を curl を用いてPOSTするコマンドを記述せよ
 
 解答欄
 
